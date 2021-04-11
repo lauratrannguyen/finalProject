@@ -127,7 +127,7 @@ function SpaceDescription({ space }) {
   }
 
   const addressLink = getMapsLink(space.address);
-
+  // Attribution of picture to google
   return (
     <Row>
       <Col>
