@@ -1,0 +1,30 @@
+@import "./custom.scss";
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+.light {
+  opacity: 85% !important;
+  transition: background-color 0.7s ease;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  color: #505050;
+  font-size: 1.75rem;
+}
+
+.nav-link:hover {
+  color: #e3b7f7;
+}
+
+.border-custom {
+  border-width: 2px !important;
+  border-color: #e3b7f7 !important;
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  color: #505050;
+}

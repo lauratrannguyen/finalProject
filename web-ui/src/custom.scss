@@ -1,0 +1,10 @@
+$theme-colors: (
+  "light": white,
+  "dark": pink,
+  "primary": pink,
+  "warning": pink,
+  "success": rgb(133, 235, 150)
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
