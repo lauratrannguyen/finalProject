@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import { NavLink} from "react-router-dom";
 
+// Attribution of boba image to google
 function Homepage() {
   return (
       <Col>
