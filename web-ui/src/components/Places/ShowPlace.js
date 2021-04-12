@@ -83,11 +83,10 @@ function getSpace(spaces, id) {
 function SpaceInfo({ space, session, history, liveState }) {
   return (
       <Col>
-        <Row>
          
             <center><h1>{space.name}</h1></center>
    
-        </Row>
+        <hr></hr>
 
         <Row>
           <Col>
@@ -127,7 +126,7 @@ function SpaceDescription({ space }) {
   }
 
   const addressLink = getMapsLink(space.address);
-  // Attribution of picture to google
+
   return (
     <Row>
       <Col>
@@ -146,7 +145,7 @@ function SpaceDescription({ space }) {
             </a>
           </Col>
         </Row>
-    
+        <hr></hr>
         <Row className="my-3">
           <Col lg={6} md={9} xs={12}>
             {image}
@@ -173,6 +172,7 @@ function getMapsLink(address) {
 function Review({ description }) {
   return (
     <Col >
+      <hr></hr>
       <Row>
         <Col>
           <h3>Review</h3>
@@ -199,16 +199,32 @@ function Hours({ hours }) {
 
   return (
     <Col lg={40}>
+      <Col>
       <Row>
-        <Col>
-          <h6>Availability</h6>
-        </Col>
+        <h8>Attribution to Google Images</h8>
+      </Row>
+      </Col>
+      <hr ></hr>
+      <Col>
+      <Row>
+      <h4>Availability</h4>
       </Row>
       <Row>
+        <h7>Weekends</h7>
         <Col>
-          {hoursUI}
+        {hoursUI[5]}
+          {hoursUI[6]}
         </Col>
+        <h7>Weekdays</h7>
+        <Col>
+          {hoursUI[0]}
+          {hoursUI[1]}
+          {hoursUI[2]}
+          {hoursUI[3]}
+          {hoursUI[4]}
+          </Col>
       </Row>
+      </Col>
     </Col>
   );
 }
@@ -267,14 +283,17 @@ function Comments({ cachedComments, space, session, liveState }) {
   return (
     <Row className="my-2">
       <Col>
+      <hr></hr>
         <Row>
+          
           <Col>
             <h3>Questions for the reviewer:</h3>
           </Col>
         </Row>
         <CommentForm space={space} liveState={liveState} session={session} />
         <Row className="my-5">
-          <Col>
+          <Col>      
+          <hr ></hr>
           <h3>Discussion:</h3>
             <Table hover>
               <tbody>{commentList}</tbody>
