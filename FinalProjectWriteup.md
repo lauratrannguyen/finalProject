@@ -8,7 +8,7 @@ https://bobagram.annelee2001.com
 ## What’s the URL of your github repository with the code for your deployed app?
 https://github.com/lauratrannguyen/finalProject.git
 ## Is your app deployed and working?
-Yes 
+Yes.
 
 ## For each team member, what work did that person do on the project?
 Because we were a two-person group, we ended up doing the majority of
