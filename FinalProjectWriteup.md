@@ -6,7 +6,7 @@ Our team members are Anne Lee and Laura Nguyen.
 ## What’s the URL of your deployed app?
 https://bobagram.annelee2001.com
 ## What’s the URL of your github repository with the code for your deployed app?
-https://github.com/lauratrannguyen/bobagram.git
+https://github.com/lauratrannguyen/finalProject.git
 ## Is your app deployed and working?
 Yes 
 
